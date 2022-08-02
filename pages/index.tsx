@@ -12,6 +12,7 @@ export default function Index() {
 
   return (
     <ul>
+      <li>Hello World</li>
       {data.map((user) => (
         <li key={user.id}>
           <Link href="/user/[id]" as={`/user/${user.id}`}>
